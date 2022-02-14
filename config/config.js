@@ -1,14 +1,18 @@
 
 import profile from './profile.png';
-import { faAppStore, faGithub, faGooglePlay } from '@fortawesome/free-brands-svg-icons';
+import { faAppStore, faGithub, faGooglePlay, faGoogleDrive } from '@fortawesome/free-brands-svg-icons';
 import { } from '@fortawesome/free-solid-svg-icons';
 
 export const navigation = {
-	name: "Hashir",
+	name: "Abhishek",
 	links: [
 		{
 			title: "About",
 			link: "#about",
+		},
+		{
+			title: "Experience",
+			link: "#experience"
 		},
 		{
 			title: "Projects",
@@ -21,12 +25,12 @@ export const navigation = {
 		{
 			title: "Links",
 			link: "/links",
-		},
-	],
+		}
+	]
 }
 export const intro = {
-	title: "Hey, I'm Hashir",
-	description: "A Computer Engineer creating mobile apps and static websites.",
+	title: "Hey, I'm Abhishek",
+	description: "Computing Science Student @ Simon Fraser University, Canada",
 	image: profile.src,
 	buttons: [
 		{
@@ -36,130 +40,134 @@ export const intro = {
 		},
 		{
 			title: "Resume",
-			link: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+			link: "https://drive.google.com/file/d/1eDKNr5FTqQe32thpOVKPluVsDSQkX5sh/view?usp=sharing",
 			isPrimary: false,
-		},
-	],
+		}
+	]
 }
 
 export const about = {
 	title: "Who I am",
 	description: [
-		"I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering. I kick started my professional career as a mobile application developer working remotely for a UK based startup — Lessgo.",
-		"The tech industry is ever-evolving and I love being able to grow with it, while continually solidifying the fundamentals. I opensource my code from a place of empathy - for future developers, teammates, users, and with accessibility in mind. I also love joining communities, helping and mentoring new developers, and supporting organizations to promote diversity in tech. I’m sharing my programming journey on instagram, helping people who are just getting into the space of programming.",
-		"When I’m not programming, I focus on my hobbies which are: diary writing, doodling, meeting people and growing my network.",
-	],
+		"A passionate and enthusiastic student of Computing - currently pursuing a Master's degree in Computing Science at Simon Fraser University. After working for more than 3 years as a software engineer in multiple product teams and dabbling with a wide range of technologies, I decided to come back to the world of academics  - and venture into the exciting field that is Visual Computing! As a relatively new entrant to the domain, I am getting to learn new things on a consistent basis - through self-learning and collaboration. I believe in gaining knowledge across a broad spectrum of domains and intend to remain a lifelong learner. As I move forward in my career, I want to continue to learn new skills and technologies and contribute towards building software that can deliver value.",
+	]
+}
+
+export const experience = {
+	title: "Past experience",
+	cards: [
+		{
+			title: "3+ years of developing software",
+			description: "Software engineer at Dell EMC (2018-2021)"
+		},
+		{
+			title: "Lead Engineer",
+			description: "Formerly lead a product team that developed solutions for critical remote support use cases in Dell APEX."
+		},
+		{
+			title: "Undergrad in Computer Science",
+			description: "National Institute of Technology, Calicut, India. Graduated in 2018 with distinction."
+		}
+	]
 }
 
 export const work = {
-	title: "What I do",
+	title: "Domains of interest",
 	cards: [
 		{
-			title: "Mobile App Development",
-			description: "I create pixel perfect iOS and Andriod apps using Flutter.",
+			title: "Software Development",
+			description: "Breaking down complex use cases through ideation, research and collaboration with the goal of constructing efficient automata that provides value to users",
 			icons: null,
 		},
 		{
-			title: "Web Development",
-			description: "I create responsive static websites using Reactjs.",
-			icons: null,
+			title: "Visual Computing",
+			description: "A curious soul on a journey of acquiring knowledge in areas such as visualization, computer vision and graphics"
 		}
-	],
+	]
 }
 
 export const projects = {
 	title: "Projects",
 	cards: [
 		{
-			title: "StarBook",
-			description: "A digital diary and mood tracking app that helps you in keeping track of your mood and productivity throughout the month/year.",
+			title: "Real-time Object Detection using Deep Learning",
+			description: "Undergraduate final-year major project. Part of a collaboration that undertook a comprehensive study of existing literature in the domains of Object Detection and Convolutional Neural Networks. Work done includes the implementation of a rudimentary fatigue monitoring feature for road safety applications.",
 			icons: [
 				{
-					icon: faAppStore,
-					link: "https://apps.apple.com/us/app/starbook-journal-ai-diary/id1552418289",
-				},
-				{
-					icon: faGithub,
-					link: "https://github.com/hashirshoaeb/star_book",
-				},
+					icon: faGoogleDrive,
+					link: "https://drive.google.com/file/d/16EVQLe8Otz3AO8-twchxvleOh6C26bYN/view?usp=sharing"
+				}
 			]
 		},
 		{
-			title: "QuranTalk",
-			description: "An emotional well being and mental health app. The app helps people to navigate their emotions in the light of the Quran.",
+			title: "Positional tracking based Video Game",
+			description: "Visual Computing course project. Collaborative effort to build a game that integrates Unity Engine and real-time human pose estimation.",
 			icons: [
 				{
-					icon: faAppStore,
-					link: "https://apps.apple.com/us/app/qurantalk/id1563425149",
+					icon: faGoogleDrive,
+					link: "https://drive.google.com/file/d/14PwVwgzU-bj4N2iYE_umHGCeq_gdZB4b/view?usp=sharing"
 				},
 				{
-					icon: faGooglePlay,
-					link: "https://play.google.com/store/apps/details?id=com.ayahemotion.quran_talk",
-				},
+					icon: faGithub,
+					link: "https://github.com/liamsparkles/BodyTrackingVGControl"
+				}
 			]
 		},
 		{
 			title: "Portfolio",
-			description: "A portfolio website template that helps you showcase your work, projects and skills as a software developer or freelancer.",
+			description: "An open-source portfolio website template that helps you showcase your work, projects and skills as a software developer or freelancer.",
 			icons: [
 				{
 					icon: faGithub,
-					link: "https://github.com/hashirshoaeb/portfolio",
-				},
+					link: "https://github.com/abs990/portfolio",
+				}
 			]
-		},
-	],
+		}
+	]
 }
 
 export const contact = {
-	title: "Get in touch",
-	description: "Coffee Chat! Please do not hesitate to schedule a meeting. Alternatively, feel free to reach out directly by email at hashirshoaeb@gmail.com.",
+	title: "Get in touch!",
+	description: "Feel free to reach out directly by email at abhi.snair0@gmail.com",
 	buttons: [
 		{
 			title: "Email Me",
-			link: "mailto:hashirshoaeb@gmail.com",
+			link: "mailto:abhi.snair0@gmail.com",
 			isPrimary: true,
 		},
 		{
-			title: "Schedule Meeting",
-			link: "",
-			isPrimary: false,
+			title: "LinkedIn",
+			link: "https://www.linkedin.com/in/abhishek-sashi-nair/",
+			isPrimary: false
 		},
+		{
+			title: "GitHub",
+			link: "https://github.com/abs990",
+			isPrimary: false
+		}
 	]
 }
 
 // SEARCH ENGINE 
 export const SEO = {
 	// 50 - 60 char  
-	title: "Hashir Shoaib | Computer Engineer | Flutter | Reactjs developer",
-	description: "I create mobile apps and static websites. I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering.",
+	title: "Abhishek Sashi Nair | Computing Science Student @ SFU | Visual Computing",
+	description: "A passionate and enthusiastic student of Computing - currently pursuing a Master's degree in Computing Science at Simon Fraser University. After working for more than 3 years as a software engineer in multiple product teams and dabbling with a wide range of technologies, I decided to come back to the world of academics  - and venture into the exciting field that is Visual Computing! As a relatively new entrant to the domain, I am getting to learn new things on a consistent basis - through self-learning and collaboration. I believe in gaining knowledge across a broad spectrum of domains and intend to remain a lifelong learner. I want to continue to learn new skills and technologies and collaboratively build software that can deliver value.",
 	image: profile.src,
 }
 
 export const links = {
 	image: profile.src,
-	title: "@hashirshoaeb",
-	description: "Computer Engineer | Flutter | Reactjs Developer",
+	title: "@abs990",
+	description: "Abhishek Sashi Nair | Computing Science Student @ SFU | Visual Computing",
 	cards: [
 		{
-			title: "My website",
-			link: "https://hashirshoaeb.com/",
-		},
-		{
-			title: "QuranTalk App",
-			link: "https://www.qurantalk.app/",
-		},
-		{
-			title: "StarBook App",
-			link: "https://starbook.dev/",
-		},
-		{
 			title: "My GitHub",
-			link: "https://github.com/hashirshoaeb/",
+			link: "https://github.com/abs990/",
 		},
 		{
 			title: "My LinkedIn",
-			link: "https://www.linkedin.com/in/hashirshoaeb/",
-		},
+			link: "https://www.linkedin.com/in/abhishek-sashi-nair/",
+		}
 	]
 }

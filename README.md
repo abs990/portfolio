@@ -4,17 +4,10 @@
   <h1 align="center">Developer's Portfolio ✨</h1>
 
   <p align="center">
-    It is a personal static website/portfolio template hosted with GitHub Pages, built to showcase my recent projects.
+    Open-source static website/portfolio template hosted with GitHub Pages, built to showcase my recent projects.
     <br />
     <strong>Site URL / Demo » </strong>
-    <a href="https://hashirshoaeb.github.io/portfolio"> hashirshoaeb.github.io/portfolio</a>
-    <br />
-    <br />
-    <a href="https://hashirshoaeb.com">About Me</a>
-    ·
-    <a href="https://github.com/hashirshoaeb/portfolio/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/hashirshoaeb/portfolio/issues">Request Feature</a>
+    <a href="https://abs990.github.io"> abs990.github.io</a>
   </p>
 </p>
 

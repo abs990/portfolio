@@ -2,6 +2,25 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Link from 'next/link'
 
+export const Experience = ({ title, cards }) => {
+	return (
+		<div id="experience" className="bg-secondary py-5 px-5">
+			<div className="container">
+				<h1 className="text-primary fw-bold">{title}</h1>
+				<div className="d-flex flex-row flex-wrap justify-content-center">
+					{cards.map((value, index) => (
+						<Card
+							key={index}
+							title={value.title}
+							description={value.description}
+						/>
+					))}
+				</div>
+			</div>
+		</div>
+	);
+}
+
 export const Skills = ({ title, cards }) => {
 	return (
 		<div id="skills" className="bg-secondary py-5 px-5">
@@ -25,7 +44,7 @@ export const Projects = ({ title, cards }) => {
 	return (
 		<div id="projects" className="bg-primary py-5 px-5">
 			<div className="container">
-				<h1 className="text-light fw-bold">Projects</h1>
+				<h1 className="text-light fw-bold">{title}</h1>
 				<div className="d-flex flex-row flex-wrap justify-content-center">
 					{cards.map((value, index) => (
 						<Card
