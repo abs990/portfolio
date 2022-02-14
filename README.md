@@ -11,9 +11,7 @@
   </p>
 </p>
 
-[![GitHub forks](https://img.shields.io/github/forks/hashirshoaeb/portfolio?style=for-the-badge)](https://github.com/hashirshoaeb/portfolio/network)
 [![GitHub license](https://img.shields.io/github/license/hashirshoaeb/portfolio?style=for-the-badge)](https://github.com/hashirshoaeb/portfolio/blob/master/LICENSE)
-[![Twitter Follow](https://img.shields.io/twitter/follow/hashirshoaeb?color=ffcc66&logo=twitter&logoColor=ffffff&style=for-the-badge)](https://twitter.com/hashirshoaeb)
 [![Node Version](https://img.shields.io/static/v1?label=Node&message=14.17.3&color=026e00&style=for-the-badge)](https://nodejs.org)
 [![npm Version](https://img.shields.io/static/v1?label=npm&message=7.19.1&color=cb0000&style=for-the-badge)](https://nodejs.org)
 
@@ -63,8 +61,6 @@ I know one template doesn't fulfill everyone's needs. So I'll try adding more fe
 <!-- GETTING STARTED -->
 # Getting Started
 
-Building your own personal website from this project can take as little as 30 minutes. Follow the setup instructions below. Please feel free to reach out to me by filing an [issue](https://github.com/hashirshoaeb/portfolio/issues) or emailing me at hashirshoaeb@gmail.com for help configuring your project.
-
 ## Prerequisites
 
 You should have [Nodejs](https://nodejs.org/en/) and [Git](https://git-scm.com/downloads) installed on your PC. You should also own a GitHub account.
@@ -76,7 +72,7 @@ You should have [Nodejs](https://nodejs.org/en/) and [Git](https://git-scm.com/d
       git clone https://github.com/<your-username>/portfolio.git
     ``` 
 
-2. Edit the [config/config.js](https://github.com/hashirshoaeb/portfolio/blob/main/config/config.js) file. Replace [config/profile.png](https://github.com/hashirshoaeb/portfolio/blob/main/config/profile.png) with your image. 
+2. Edit the [config/config.js](https://github.com/abs990/portfolio/blob/main/config/config.js) file. Replace [config/profile.png](https://github.com/abs990/portfolio/blob/main/config/profile.png) with your image. 
     >Note: You need to rename your image file as `profile.png`.
 
 3. Run following scripts in terminal/command prompt to install dependencies.
