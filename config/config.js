@@ -76,12 +76,16 @@ export const work = {
 	cards: [
 		{
 			title: "Software Development",
-			description: "Breaking down complex use cases through ideation, research and collaboration with the goal of constructing efficient automata that provides value to users",
+			description: "I take great interest in breaking down complex use cases through ideation, research and collaboration with the goal of constructing efficient automata that provides value to users",
 			icons: null,
 		},
 		{
 			title: "Visual Computing",
-			description: "A curious soul on a journey of acquiring knowledge in areas such as visualization, computer vision and graphics"
+			description: "Learning how to equip machines to see the world like humans do - I recently set out on a journey of acquiring practical knowledge in areas such as visualization, computer vision and graphics"
+		},
+		{
+			title: "AI",
+			description: "Data is the new oil - and I am keen on contributing towards building solutions that use AI/ML as it has become an invaluable avenue for uncovering hidden trends and patterns in data"
 		}
 	]
 }
