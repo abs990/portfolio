@@ -49,7 +49,7 @@ export const intro = {
 export const about = {
 	title: "Who I am",
 	description: [
-		"A passionate and enthusiastic student of Computing - currently pursuing a Master's degree in Computing Science at Simon Fraser University. After working for more than 3 years as a software engineer in multiple product teams and dabbling with a wide range of technologies, I decided to come back to the world of academics  - and venture into the exciting field that is Visual Computing! As a relatively new entrant to the domain, I am getting to learn new things on a consistent basis - through self-learning and collaboration. I believe in gaining knowledge across a broad spectrum of domains and intend to remain a lifelong learner. As I move forward in my career, I want to continue to learn new skills and technologies and contribute towards building software that can deliver value.",
+		"A passionate and enthusiastic student of Computing - currently pursuing a Master's degree in Computing Science at Simon Fraser University. After working for more than 3 years as a software engineer in various product teams and having gained experience with a wide range of technologies, I decided to come back to the world of academics  - and venture into the exciting field that is Visual Computing! As a relatively new entrant to the domain, I am getting to learn new things on a consistent basis - through self-learning and collaboration. I believe in gaining knowledge across a broad spectrum of domains and intend to remain a lifelong learner. As I move forward in my career, I want to continue to learn new skills and technologies and contribute towards building software that can deliver value.",
 	]
 }
 
@@ -65,8 +65,12 @@ export const experience = {
 			description: "Formerly lead a product team that developed solutions for critical remote support use cases in Dell APEX."
 		},
 		{
+			title: "Open research and POCs",
+			description: "Contributed towards open research for security modules in enterprise software support packages and executed POCs for internal app infrastructure modernization."
+		},
+		{
 			title: "Undergrad in Computer Science",
-			description: "National Institute of Technology, Calicut, India. Graduated in 2018 with distinction."
+			description: "From the National Institute of Technology, Calicut, India. Graduated in 2018 with first-class and distinction."
 		}
 	]
 }
@@ -76,16 +80,16 @@ export const work = {
 	cards: [
 		{
 			title: "Software Development",
-			description: "I take great interest in breaking down complex use cases through ideation, research and collaboration with the goal of constructing efficient automata that provides value to users",
+			description: "I take great interest in breaking down complex use cases through ideation, research and collaboration with the goal of constructing efficient automata that provides value to users.",
 			icons: null,
 		},
 		{
 			title: "Visual Computing",
-			description: "Learning how to equip machines to see the world like humans do - I recently set out on a journey of acquiring practical knowledge in areas such as visualization, computer vision and graphics"
+			description: "Learning how to equip machines to see the world like humans do - I recently set out on a journey of acquiring practical knowledge in areas such as visualization, computer vision and graphics."
 		},
 		{
 			title: "AI",
-			description: "Data is the new oil - and I am keen on contributing towards building solutions that use AI/ML as it has become an invaluable avenue for uncovering hidden trends and patterns in data"
+			description: "Data is the new oil - and I am keen on contributing towards building solutions that use AI/ML as it has become an invaluable avenue for uncovering hidden trends and patterns in data."
 		}
 	]
 }
@@ -156,7 +160,7 @@ export const contact = {
 export const SEO = {
 	// 50 - 60 char  
 	title: "Abhishek Sashi Nair | Computing Science Student @ SFU | Visual Computing",
-	description: "A passionate and enthusiastic student of Computing - currently pursuing a Master's degree in Computing Science at Simon Fraser University. After working for more than 3 years as a software engineer in multiple product teams and dabbling with a wide range of technologies, I decided to come back to the world of academics  - and venture into the exciting field that is Visual Computing! As a relatively new entrant to the domain, I am getting to learn new things on a consistent basis - through self-learning and collaboration. I believe in gaining knowledge across a broad spectrum of domains and intend to remain a lifelong learner. I want to continue to learn new skills and technologies and collaboratively build software that can deliver value.",
+	description: "A passionate and enthusiastic student of Computing - currently pursuing a Master's degree in Computing Science at Simon Fraser University. After working for more than 3 years as a software engineer in various product teams and having gained experience with a wide range of technologies, I decided to come back to the world of academics  - and venture into the exciting field that is Visual Computing! As a relatively new entrant to the domain, I am getting to learn new things on a consistent basis - through self-learning and collaboration. I believe in gaining knowledge across a broad spectrum of domains and intend to remain a lifelong learner. As I move forward in my career, I want to continue to learn new skills and technologies and contribute towards building software that can deliver value.",
 	image: profile.src,
 }
 
