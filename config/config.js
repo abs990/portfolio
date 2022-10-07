@@ -50,7 +50,10 @@ export const intro = {
 export const about = {
 	title: "Who I am",
 	description: [
-		"A passionate and enthusiastic student of Computing - currently pursuing a Master's degree in Computing Science at Simon Fraser University. After working for more than 3 years as a software engineer in various product teams and having gained experience with a wide range of technologies, I decided to come back to the world of academics  - and venture into the exciting field that is Visual Computing! As a relatively new entrant to the domain, I am getting to learn new things on a consistent basis - through self-learning and collaboration. I believe in gaining knowledge across a broad spectrum of domains and intend to remain a lifelong learner. As I move forward in my career, I want to continue to learn new skills and technologies and contribute towards building software that can deliver value.",
+		"A passionate and enthusiastic student of Computing - currently pursuing a Master's degree in Computing Science at Simon Fraser University.",
+		"After working for more than 3 years as a software engineer in various product teams and having gained experience with a wide range of technologies, I decided to come back to the world of academics  - and venture into the exciting field that is Visual Computing!",
+		"As a relatively new entrant to the domain, I am getting to learn new things on a consistent basis - through self-learning and collaboration. I believe in gaining knowledge across a broad spectrum of domains and intend to remain a lifelong learner.",
+		"As I move forward in my career, I want to continue to learn new skills and technologies and contribute towards building software that can deliver value."
 	]
 }
 
