@@ -66,7 +66,11 @@ export const Card = ({ title, description, icons }) => {
 	return (
 		<div className="card py-3 px-3 mx-sm-4 my-4 card-work" style={{ width: "20rem" }}>
 			<h4 className="text-primary">{title}</h4>
-			<p className="text-dark">{description}</p>
+			<div className="text-dark">
+				{description.map((value, index) => (
+					<p key={index} >{value}</p>
+				))}
+			</div>
 			<div className="text-end">
 				{icons && icons.map((value, index) => (
 					<Link key={index} href={value.link}>

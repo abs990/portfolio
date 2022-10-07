@@ -62,23 +62,37 @@ export const experience = {
 	cards: [
 		{
 			title: "Co-op in Computer Graphics",
-			description: "Part of a team of Computer Graphics specialists at Huawei's Central Media Technology Team"
+			description: [
+				"Part of a team of Computer Graphics specialists.",
+				"Co-op at Huawei's Central Media Technology Team."
+			]
 		},
 		{
 			title: "3+ years of developing software",
-			description: "Software engineer at Dell EMC (2018-2021)"
+			description: [
+				"Software engineer at Dell EMC (2018-2021)"
+			]
 		},
 		{
-			title: "Lead Engineer",
-			description: "Formerly lead a product team that developed solutions for critical remote support use cases in Dell APEX."
+			title: "Former Lead Engineer",
+			description: [
+				"Formerly lead a product team that developed solutions for critical functionalities.",
+				"Contributed to automated remote support use cases in Dell APEX."
+			]
 		},
 		{
 			title: "Open research and POCs",
-			description: "Contributed towards open research for security modules in enterprise software support packages and executed POCs for internal app infrastructure modernization."
+			description: [
+				"Contributed towards open research for security modules in enterprise software support packages.",
+				"Executed POCs for internal app infrastructure modernization."
+			]
 		},
 		{
 			title: "Undergrad in Computer Science",
-			description: "From the National Institute of Technology, Calicut, India. Graduated in 2018 with first-class and distinction."
+			description: [
+				"From the National Institute of Technology, Calicut, India.",
+				"Graduated in 2018 with first-class and distinction."
+			]
 		}
 	]
 }
@@ -88,16 +102,25 @@ export const work = {
 	cards: [
 		{
 			title: "Software Development",
-			description: "I take great interest in breaking down complex use cases through ideation, research and collaboration with the goal of constructing efficient automata that provides value to users.",
+			description: [
+				"Constructing efficient automata that provides value to users.",
+				"I take great interest in breaking down and building complex systems through ideation, research and collaboration."
+			],
 			icons: null,
 		},
 		{
 			title: "Visual Computing",
-			description: "Learning how to equip machines to see the world like humans do - I recently set out on a journey of acquiring practical knowledge in areas such as visualization, computer vision and graphics."
+			description: [
+				"Learning how to equip machines to see the world like humans do.",
+				"I recently set out on a journey of acquiring practical knowledge in areas such as visualization, computer vision and graphics."
+			]
 		},
 		{
 			title: "AI",
-			description: "Data is the new oil - and I am keen on contributing towards building solutions that use AI/ML as it has become an invaluable avenue for uncovering hidden trends and patterns in data."
+			description: [
+				"Data is the new oil.",
+				"I am keen on contributing towards building solutions that use AI/ML as it has become an invaluable avenue for uncovering hidden trends and patterns in data."
+			]
 		}
 	]
 }
@@ -107,7 +130,11 @@ export const projects = {
 	cards: [
 		{
 			title: "Hand Gesture based Computer Interaction",
-			description: "Visual Computing course project. Aimed at building a simple system to trigger automated actions in a given host system by using hand pose estimation. Additional research conducted to investigate 3D model control as a system extension.",
+			description: [
+				"Visual Computing course project.",
+				"Aimed at building a simple system to trigger automated actions in a given host system by using hand pose estimation.",
+				"Additional research conducted to investigate 3D model control as a system extension."
+			],
 			icons: [
 				{
 					icon: faGoogleDrive,
@@ -121,7 +148,10 @@ export const projects = {
 		},
 		{
 			title: "Positional tracking based Video Game",
-			description: "Visual Computing course project. Collaborative effort to build a game that integrates Unity Engine and real-time human pose estimation.",
+			description: [
+				"Visual Computing course project.",
+				"Collaborative effort to build a game that integrates Unity Engine and real-time human pose estimation."
+			],
 			icons: [
 				{
 					icon: faGoogleDrive,
@@ -135,7 +165,11 @@ export const projects = {
 		},
 		{
 			title: "Real-time Object Detection using Deep Learning",
-			description: "Undergraduate final-year major project. Part of a collaboration that undertook a comprehensive study of existing literature in the domains of Object Detection and Convolutional Neural Networks. Work done includes the implementation of a rudimentary fatigue monitoring feature for road safety applications.",
+			description: [
+				"Undergraduate final-year major project.",
+				"Part of a collaboration that undertook a comprehensive study of existing literature in the domains of Object Detection and Convolutional Neural Networks.",
+				"Work done includes the implementation of a rudimentary fatigue monitoring feature for road safety applications."
+			],
 			icons: [
 				{
 					icon: faGoogleDrive,
