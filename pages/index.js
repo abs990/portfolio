@@ -17,6 +17,7 @@ export default function Home() {
       <Intro
         title={intro.title}
         description={intro.description}
+        description2={intro.description2}
         image={intro.image}
         buttons={intro.buttons}
       />

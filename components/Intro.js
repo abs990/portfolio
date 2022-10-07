@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const { publicRuntimeConfig } = getConfig()
 
-export const Intro = ({ title, description, image, buttons }) => {
+export const Intro = ({ title, description, description2, image, buttons }) => {
 	return (
 		<div className="bg-secondary py-5 px-5">
 			<div className="container">
@@ -12,6 +12,7 @@ export const Intro = ({ title, description, image, buttons }) => {
 					<div className="col-sm-6">
 						<h1 className="text-primary fw-bold display-3">{title}</h1>
 						<p>{description}</p>
+						<p>{description2}</p>
 						<div className="text-center">
 							{buttons.map((value, index) => (
 								(value.isPrimary) ?

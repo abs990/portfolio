@@ -31,6 +31,7 @@ export const navigation = {
 export const intro = {
 	title: "Hey, I'm Abhishek",
 	description: "Computing Science Student @ Simon Fraser University, Canada",
+	description2: "Research Support Engineer (Co-op) @ Huawei Technologies, Vancouver",
 	image: profile.src,
 	buttons: [
 		{
@@ -54,8 +55,12 @@ export const about = {
 }
 
 export const experience = {
-	title: "Past experience",
+	title: "Industry experience",
 	cards: [
+		{
+			title: "Co-op in Computer Graphics",
+			description: "Part of a team of Computer Graphics specialists at Huawei's Central Media Technology Team"
+		},
 		{
 			title: "3+ years of developing software",
 			description: "Software engineer at Dell EMC (2018-2021)"
@@ -98,12 +103,16 @@ export const projects = {
 	title: "Projects",
 	cards: [
 		{
-			title: "Real-time Object Detection using Deep Learning",
-			description: "Undergraduate final-year major project. Part of a collaboration that undertook a comprehensive study of existing literature in the domains of Object Detection and Convolutional Neural Networks. Work done includes the implementation of a rudimentary fatigue monitoring feature for road safety applications.",
+			title: "Hand Gesture based Computer Interaction",
+			description: "Visual Computing course project. Aimed at building a simple system to trigger automated actions in a given host system by using hand pose estimation. Additional research conducted to investigate 3D model control as a system extension.",
 			icons: [
 				{
 					icon: faGoogleDrive,
-					link: "https://drive.google.com/file/d/16EVQLe8Otz3AO8-twchxvleOh6C26bYN/view?usp=sharing"
+					link: "https://drive.google.com/file/d/1hGn-gFDXD4uNs26-DPYdfwL67eQaPEMC/view?usp=sharing"
+				},
+				{
+					icon: faGithub,
+					link: "https://github.com/abs990/hand-gesture-computer-control",
 				}
 			]
 		},
@@ -122,12 +131,12 @@ export const projects = {
 			]
 		},
 		{
-			title: "Portfolio",
-			description: "An open-source portfolio website template that helps you showcase your work, projects and skills as a software developer or freelancer.",
+			title: "Real-time Object Detection using Deep Learning",
+			description: "Undergraduate final-year major project. Part of a collaboration that undertook a comprehensive study of existing literature in the domains of Object Detection and Convolutional Neural Networks. Work done includes the implementation of a rudimentary fatigue monitoring feature for road safety applications.",
 			icons: [
 				{
-					icon: faGithub,
-					link: "https://github.com/abs990/portfolio",
+					icon: faGoogleDrive,
+					link: "https://drive.google.com/file/d/16EVQLe8Otz3AO8-twchxvleOh6C26bYN/view?usp=sharing"
 				}
 			]
 		}
