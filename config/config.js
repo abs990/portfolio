@@ -31,7 +31,7 @@ export const navigation = {
 export const intro = {
 	title: "Hey, I'm Abhishek",
 	description: "Computing Science Student @ Simon Fraser University, Canada",
-	description2: "Research Support Engineer (Co-op) @ Huawei Technologies, Vancouver",
+	description2: "Research Support Engineer (Part-time) @ Huawei Technologies, Vancouver",
 	image: profile.src,
 	buttons: [
 		{
@@ -61,10 +61,10 @@ export const experience = {
 	title: "Industry experience",
 	cards: [
 		{
-			title: "Co-op in Computer Graphics",
+			title: "Experience in Computer Graphics",
 			description: [
 				"Part of a team of Computer Graphics specialists.",
-				"Co-op at Huawei's Central Media Technology Team."
+				"Part-time position at Huawei's Graphics Technology Lab."
 			]
 		},
 		{
