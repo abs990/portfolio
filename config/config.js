@@ -30,8 +30,7 @@ export const navigation = {
 }
 export const intro = {
 	title: "Hey, I'm Abhishek",
-	description: "Computing Science Student @ Simon Fraser University, Canada",
-	description2: "Research Support Engineer (Part-time) @ Huawei Technologies, Vancouver",
+	description: "Associate Engineer (Contract) @ Huawei Technologies, Vancouver",
 	image: profile.src,
 	buttons: [
 		{
@@ -50,8 +49,8 @@ export const intro = {
 export const about = {
 	title: "Who I am",
 	description: [
-		"A passionate and enthusiastic student of Computing - currently pursuing a Master's degree in Computing Science at Simon Fraser University.",
-		"After working for more than 3 years as a software engineer in various product teams and having gained experience with a wide range of technologies, I decided to come back to the world of academics  - and venture into the exciting field that is Visual Computing!",
+		"A passionate and enthusiastic student of Computing - recently completed a Master's degree in Computing Science at Simon Fraser University.",
+		"After a good 3 years as a Software Engineer in various product teams and having gained experience with a wide range of technologies, I decided to dive back into the world of academics - and venture into the exciting field that is Visual Computing! After having completed my Master's degree focused in this domain, I recently started working as an Associate Engineer in a team focused on solving fundamental problems in the area of Computer Graphics.",
 		"As a relatively new entrant to the domain, I am getting to learn new things on a consistent basis - through self-learning and collaboration. I believe in gaining knowledge across a broad spectrum of domains and intend to remain a lifelong learner.",
 		"As I move forward in my career, I want to continue to learn new skills and technologies and contribute towards building software that can deliver value."
 	]
@@ -64,7 +63,7 @@ export const experience = {
 			title: "Experience in Computer Graphics",
 			description: [
 				"Part of a team of Computer Graphics specialists.",
-				"Part-time position at Huawei's Graphics Technology Lab."
+				"Contract position at Huawei's Graphics Technology Lab."
 			]
 		},
 		{
@@ -160,20 +159,6 @@ export const projects = {
 				{
 					icon: faGithub,
 					link: "https://github.com/liamsparkles/BodyTrackingVGControl"
-				}
-			]
-		},
-		{
-			title: "Real-time Object Detection using Deep Learning",
-			description: [
-				"Undergraduate final-year major project.",
-				"Part of a collaboration that undertook a comprehensive study of existing literature in the domains of Object Detection and Convolutional Neural Networks.",
-				"Work done includes the implementation of a rudimentary fatigue monitoring feature for road safety applications."
-			],
-			icons: [
-				{
-					icon: faGoogleDrive,
-					link: "https://drive.google.com/file/d/16EVQLe8Otz3AO8-twchxvleOh6C26bYN/view?usp=sharing"
 				}
 			]
 		}
