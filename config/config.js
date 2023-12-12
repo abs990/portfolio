@@ -51,7 +51,7 @@ export const about = {
 	description: [
 		"A passionate and enthusiastic student of Computing - recently completed a Master's degree in Computing Science at Simon Fraser University.",
 		"After a good 3 years as a Software Engineer in various product teams and having gained experience with a wide range of technologies, I decided to dive back into the world of academics - and venture into the exciting field that is Visual Computing! After having completed my Master's degree focused in this domain, I recently started working as an Associate Engineer in a team focused on solving fundamental problems in the area of Computer Graphics.",
-		"As a relatively new entrant to the domain, I am getting to learn new things on a consistent basis - through self-learning and collaboration. I believe in gaining knowledge across a broad spectrum of domains and intend to remain a lifelong learner.",
+		"As a relatively new entrant to the domains of Visual Computing and Computer Graphics, I am getting to learn new things on a consistent basis - through self-learning and collaboration. I believe in gaining knowledge across a broad spectrum of domains and intend to remain a lifelong learner.",
 		"As I move forward in my career, I want to continue to learn new skills and technologies and contribute towards building software that can deliver value."
 	]
 }
@@ -60,37 +60,24 @@ export const experience = {
 	title: "Industry experience",
 	cards: [
 		{
-			title: "Experience in Computer Graphics",
+			title: "4+ years of developing software",
 			description: [
-				"Part of a team of Computer Graphics specialists.",
-				"Contract position at Huawei's Graphics Technology Lab."
+				"Huawei Technologies Canada(2022-present)",
+				"Dell EMC (2018-2021)"
 			]
 		},
 		{
-			title: "3+ years of developing software",
+			title: "Experience in Computer Graphics",
 			description: [
-				"Software engineer at Dell EMC (2018-2021)"
+				"Currently Part of a R&D team at Huawei's Vancouver Graphics Technology Lab.",
+				"Designing, experimenting and implementing POCs for open problems of interest in Computer Graphics.",
+				"Tools - Unreal Engine, Unity, O3DE, Blender"
 			]
 		},
 		{
 			title: "Former Lead Engineer",
 			description: [
-				"Formerly lead a product team that developed solutions for critical functionalities.",
-				"Contributed to automated remote support use cases in Dell APEX."
-			]
-		},
-		{
-			title: "Open research and POCs",
-			description: [
-				"Contributed towards open research for security modules in enterprise software support packages.",
-				"Executed POCs for internal app infrastructure modernization."
-			]
-		},
-		{
-			title: "Undergrad in Computer Science",
-			description: [
-				"From the National Institute of Technology, Calicut, India.",
-				"Graduated in 2018 with first-class and distinction."
+				"Formerly lead a product team that developed solutions for automated remote support use cases in Dell APEX."
 			]
 		}
 	]
@@ -127,6 +114,24 @@ export const work = {
 export const projects = {
 	title: "Projects",
 	cards: [
+		{
+			title: "Car Following Simulation",
+			description: [
+				"Computer Animation Project.",
+				"An implementation of AOVRV method for traffic flow simulation in Unity.",
+				"Weighted AOVRV proposed and implemented for lane switching scenario."
+			],
+			icons: [
+				{
+					icon: faGoogleDrive,
+					link: "https://drive.google.com/file/d/1KYbHTjeUxLHwkZ9m6y_sCebHP90on3kr/view?usp=share_link"
+				},
+				{
+					icon: faGithub,
+					link: "https://github.com/abs990/Car-Following-Simulation",
+				}
+			]
+		},
 		{
 			title: "Hand Gesture based Computer Interaction",
 			description: [

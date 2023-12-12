@@ -129,3 +129,12 @@ Contributions are what make the open source community such an amazing place to l
 # License
 
 Distributed under the `MIT` License. See [LICENSE](https://github.com/hashirshoaeb/portfolio/blob/main/LICENSE) for more information.
+
+# Changelog
+
+## 11th Dec, 2023
+
+1. Add CMPT 766 project
+2. Update About section
+3. Update Experience section
+4. Update resume
