@@ -18,8 +18,8 @@
 // $inverted-font: #FFFFFF;
 
 // bootstrap overrides 
-$primary: #365B6D ;
-$secondary: #F7F7F7;
+$primary: #286183;
+$secondary: #ffffff;
 $light: #FFFFFF;
 
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap');
@@ -114,6 +114,7 @@ $card-border-radius: 15px;
 html {
   scroll-behavior: smooth;
 }
+
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
@@ -125,21 +126,21 @@ a {
 }
 
 .icon-style {
-font-family: $font-family-sans-serif;
-color: $primary;
+  font-family: $font-family-sans-serif;
+  color: $primary;
 }
 
 
 .card-work {
-	transition: box-shadow .3s;
+  transition: box-shadow .3s;
 }
 
 .card-work:hover {
-  box-shadow: 0 0 11px rgba(33,33,33,.2);
+  box-shadow: 0 0 11px rgba(33, 33, 33, .2);
 }
 
 .card-image {
-	transition: all .3s;
+  transition: all .3s;
   border-radius: $card-border-radius;
   box-shadow: 1rem 1rem $primary;
 }

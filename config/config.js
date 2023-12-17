@@ -1,6 +1,6 @@
 
 import profile from './profile.png';
-import { faAppStore, faGithub, faGooglePlay, faGoogleDrive } from '@fortawesome/free-brands-svg-icons';
+import { faAppStore, faGithub, faGooglePlay, faGoogleDrive, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { } from '@fortawesome/free-solid-svg-icons';
 
 export const navigation = {
@@ -123,12 +123,16 @@ export const projects = {
 			],
 			icons: [
 				{
-					icon: faGoogleDrive,
+					icon: faYoutube,
 					link: "https://drive.google.com/file/d/1KYbHTjeUxLHwkZ9m6y_sCebHP90on3kr/view?usp=share_link"
 				},
 				{
 					icon: faGithub,
 					link: "https://github.com/abs990/Car-Following-Simulation",
+				},
+				{
+					icon: faGoogleDrive,
+					link: "https://drive.google.com/file/d/1Ol8ivshNIuovQy2c6MVepDYhWEFsM_Mi/view?usp=share_link"
 				}
 			]
 		},
