@@ -124,7 +124,7 @@ export const projects = {
 			icons: [
 				{
 					icon: faYoutube,
-					link: "https://drive.google.com/file/d/1KYbHTjeUxLHwkZ9m6y_sCebHP90on3kr/view?usp=share_link"
+					link: "https://drive.google.com/file/d/1I7OBwGBf8GmbkHtGHCz2HJE6pUgph2xd/view?usp=share_link"
 				},
 				{
 					icon: faGithub,
