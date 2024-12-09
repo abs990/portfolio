@@ -7,7 +7,7 @@ export const Experience = ({ title, cards }) => {
 		<div id="experience" className="bg-secondary py-5 px-5">
 			<div className="container">
 				<h1 className="text-primary fw-bold">{title}</h1>
-				<div className="d-flex flex-row flex-wrap justify-content-center">
+				<div className="d-flex flex-row flex-wrap justify-content-around">
 					{cards.map((value, index) => (
 						<Card
 							key={index}
@@ -26,7 +26,7 @@ export const Skills = ({ title, cards }) => {
 		<div id="skills" className="bg-secondary py-5 px-5">
 			<div className="container">
 				<h1 className="text-primary fw-bold">{title}</h1>
-				<div className="d-flex flex-row flex-wrap justify-content-center">
+				<div className="d-flex flex-row flex-wrap justify-content-around">
 					{cards.map((value, index) => (
 						<Card
 							key={index}
@@ -45,7 +45,7 @@ export const Projects = ({ title, cards }) => {
 		<div id="projects" className="bg-primary py-5 px-5">
 			<div className="container">
 				<h1 className="text-light fw-bold">{title}</h1>
-				<div className="d-flex flex-row flex-wrap justify-content-center">
+				<div className="d-flex flex-row flex-wrap justify-content-around">
 					{cards.map((value, index) => (
 						<Card
 							key={index}

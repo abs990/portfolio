@@ -30,7 +30,7 @@ export const navigation = {
 }
 export const intro = {
 	title: "Hey, I'm Abhishek",
-	description: "Associate Engineer (Contract) @ Huawei Technologies, Vancouver",
+	description: "Associate Engineer @ Huawei Technologies, Vancouver",
 	image: profile.src,
 	buttons: [
 		{
@@ -60,24 +60,28 @@ export const experience = {
 	title: "Industry experience",
 	cards: [
 		{
-			title: "4+ years of developing software",
+			title: "5+ years of developing software",
 			description: [
-				"Huawei Technologies Canada(2022-present)",
-				"Dell EMC (2018-2021)"
+				"Huawei Technologies [2022 - present]",
+				"Dell EMC [2018 - 2021]"
 			]
 		},
 		{
 			title: "Experience in Computer Graphics",
 			description: [
-				"Currently Part of a R&D team at Huawei's Vancouver Graphics Technology Lab.",
+				"Associate Engineer at Huawei's Vancouver Graphics Technology Lab.",
+				"Currently part of an effort for developing a system-integration Vulkan extension on Mesa - with the added avenue of open source community contribution",
+				"Currently a representative for Huawei in the Khronos group for Vulkan standard related activities",
 				"Designing, experimenting and implementing POCs for open problems of interest in Computer Graphics.",
-				"Tools - Unreal Engine, Unity, O3DE, Blender"
+				"Tools - Unreal Engine, Unity, O3DE, Blender, Mesa",
+				"Graphics APIs - Vulkan"
 			]
 		},
 		{
 			title: "Former Lead Engineer",
 			description: [
-				"Formerly lead a product team that developed solutions for automated remote support use cases in Dell APEX."
+				"Formerly lead a product team that developed solutions for automated remote support use cases in Dell APEX.",
+				"Tools - Spring, Docker, Kubernetes"
 			]
 		}
 	]
