@@ -1,5 +1,4 @@
 
-import profile from './profile.png';
 import { faAppStore, faGithub, faGooglePlay, faGoogleDrive, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { } from '@fortawesome/free-solid-svg-icons';
 
@@ -31,7 +30,7 @@ export const navigation = {
 export const intro = {
 	title: "Hey, I'm Abhishek",
 	description: "Associate Engineer @ Huawei Technologies, Vancouver",
-	image: profile.src,
+	image: "/config/profile.png",
 	buttons: [
 		{
 			title: "Contact Me",
@@ -205,11 +204,11 @@ export const SEO = {
 	// 50 - 60 char  
 	title: "Abhishek Sashi Nair | Computing Science Student @ SFU | Visual Computing",
 	description: "A passionate and enthusiastic student of Computing - currently pursuing a Master's degree in Computing Science at Simon Fraser University. After working for more than 3 years as a software engineer in various product teams and having gained experience with a wide range of technologies, I decided to come back to the world of academics  - and venture into the exciting field that is Visual Computing! As a relatively new entrant to the domain, I am getting to learn new things on a consistent basis - through self-learning and collaboration. I believe in gaining knowledge across a broad spectrum of domains and intend to remain a lifelong learner. As I move forward in my career, I want to continue to learn new skills and technologies and contribute towards building software that can deliver value.",
-	image: profile.src,
+	image: "/config/profile.png",
 }
 
 export const links = {
-	image: profile.src,
+	image: "/config/profile.png",
 	title: "@abs990",
 	description: "Abhishek Sashi Nair | Computing Science Student @ SFU | Visual Computing",
 	cards: [
