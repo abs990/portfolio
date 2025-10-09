@@ -16,12 +16,12 @@ export const Intro = ({ title, description, description2, image, buttons }) => {
 						<div className="text-center">
 							{buttons.map((value, index) => (
 								(value.isPrimary) ?
-									<Link key={index} href={value.link}>
-										<a className="btn btn-primary my-1 mx-3">{value.title}</a>
+									<Link key={index} href={value.link} className="btn btn-primary my-1 mx-3">
+										{value.title}
 									</Link>
 									:
-									<Link key={index} href={value.link}>
-										<a target="_blank" rel="noreferrer" className="btn btn-outline-primary my-1 mx-3">{value.title}</a>
+									<Link key={index} href={value.link} target="_blank" rel="noreferrer" className="btn btn-outline-primary my-1 mx-3">
+										{value.title}
 									</Link>
 							))}
 						</div>

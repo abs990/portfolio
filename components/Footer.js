@@ -11,16 +11,12 @@ export const Contact = ({ title, description, buttons }) => {
 					<div className="">
 						{buttons.map((value, index) => (
 							(value.isPrimary) ?
-								<Link key={index} href={value.link}>
-									<a className="btn btn-primary my-1 mx-3">
-										{value.title}
-									</a>
+								<Link key={index} href={value.link} className="btn btn-primary my-1 mx-3">
+									{value.title}
 								</Link>
 								:
-								<Link key={index} href={value.link}>
-									<a className="btn btn-outline-primary my-1 mx-3">
-										{value.title}
-									</a>
+								<Link key={index} href={value.link} className="btn btn-outline-primary my-1 mx-3">
+									{value.title}
 								</Link>
 						))}
 					</div>
@@ -37,7 +33,7 @@ export const Footer = () => {
 				<small>&copy; {" "}
 					Open sourced with love under {" "}
 					<Link href="https://github.com/abs990/portfolio/blob/main/LICENSE">
-						<a>MIT</a>
+						MIT
 					</Link>
 					{" "} License
 				</small>
