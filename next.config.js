@@ -29,6 +29,11 @@ const nextConfig = {
   reactStrictMode: true,
   basePath: basePath,
   assetPrefix: basePath,
+  output: 'export',
+  trailingSlash: true,
+  images: {
+    unoptimized: true,
+  },
   publicRuntimeConfig: {
     basePath: basePath,
   },

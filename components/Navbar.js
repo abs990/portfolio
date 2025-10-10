@@ -10,7 +10,7 @@ export const Nav = ({ title, links }) => {
   return (
     <nav className="navbar navbar-expand-sm navbar-light bg-secondary">
       <div className="container">
-        <Link href="/" className="navbar-brand">
+        <Link href="/" className="navbar-brand" passHref>
           {/* <Image src={Logo} alt="Logo" width="36" height="36" className="vertical-align-middle" /> */}
           <span className="">{title}</span>
         </Link>
