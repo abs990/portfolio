@@ -49,8 +49,9 @@ export const about = {
 	title: "Who I am",
 	description: [
 		"A passionate and enthusiastic student of Computing - recently completed a Master's degree in Computing Science at Simon Fraser University.",
-		"After a good 3 years as a Software Engineer in various product teams and having gained experience with a wide range of technologies, I decided to dive back into the world of academics - and venture into the exciting field that is Visual Computing! After having completed my Master's degree focused in this domain, I recently started working as an Associate Engineer in a team focused on solving fundamental problems in the area of Computer Graphics.",
-		"As a relatively new entrant to the domains of Visual Computing and Computer Graphics, I am getting to learn new things on a consistent basis - through self-learning and collaboration. I believe in gaining knowledge across a broad spectrum of domains and intend to remain a lifelong learner.",
+		"After a good 3 years as a Software Engineer in various product teams and having gained experience with a wide range of technologies, I decided to dive back into the world of academics - and venture into the exciting field that is Visual Computing! Post the completion of my Master's degree focused in this domain, I have been working as an Associate Engineer in a team focused on solving fundamental problems and establishing standards in the area of Computer Graphics.",
+		"My current areas of focus at work are Rendering and AI. My most recent project involves exploring an interesting intersection of the two domains - and promises to unlock exciting new avenues.",
+		"As a recent entrant to the domains of Visual Computing and Computer Graphics, I am getting to learn new things on a consistent basis - through self-learning and collaboration. I believe in gaining knowledge across a broad spectrum of domains and intend to remain a lifelong learner.",
 		"As I move forward in my career, I want to continue to learn new skills and technologies and contribute towards building software that can deliver value."
 	]
 }
@@ -61,7 +62,8 @@ export const experience = {
 		{
 			title: "5+ years of developing software",
 			description: [
-				"Huawei Technologies [2022 - present]",
+				"Contract, Full-time @ Huawei Canada [2023 - present]",
+				"Co-op @ Huawei Canada [2022]",
 				"Dell EMC [2018 - 2021]"
 			]
 		},
@@ -69,10 +71,10 @@ export const experience = {
 			title: "Experience in Computer Graphics",
 			description: [
 				"Associate Engineer at Huawei's Vancouver Graphics Technology Lab.",
-				"Currently part of an effort for developing a system-integration Vulkan extension on Mesa - with the added avenue of open source community contribution",
-				"Currently a representative for Huawei in the Khronos group for Vulkan standard related activities",
+				"Currently part of a research initiative to establish neural shading techniques for mobile",
+				"Implementation of system-integration features for retrieval of presentation timing statistics for Vulkan software rasterizer in Mesa",
 				"Designing, experimenting and implementing POCs for open problems of interest in Computer Graphics.",
-				"Tools - Unreal Engine, Unity, O3DE, Blender, Mesa",
+				"Tools - Python, PyTorch, Unreal Engine, Mesa",
 				"Graphics APIs - Vulkan"
 			]
 		},
@@ -171,6 +173,30 @@ export const projects = {
 				{
 					icon: faGithub,
 					link: "https://github.com/liamsparkles/BodyTrackingVGControl"
+				}
+			]
+		},
+		{
+			title: "Dungeon Escape",
+			description: [
+				"Side project to create a short dungeon escape game using Unreal Engine."
+			],
+			icons: [
+				{
+					icon: faGithub,
+					link: "https://github.com/abs990/DungeonEscape"
+				}
+			]
+		},
+		{
+			title: "Obstacle Assault",
+			description: [
+				"Side project to create a short obstacles-based game using Unreal engine."
+			],
+			icons: [
+				{
+					icon: faGithub,
+					link: "https://github.com/abs990/ObstacleAssault"
 				}
 			]
 		}
